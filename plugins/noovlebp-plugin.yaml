@@ -5,7 +5,7 @@ metadata:
 spec:
   image: jwhite101/noovle-bp:0.0.1-SNAPSHOT
   replicas: 1
-  dbms: mysql
+  dbms: none
   parameters: {}
   ingressPath: "/noovleBp"
   healthCheckPath: "/management/health"
